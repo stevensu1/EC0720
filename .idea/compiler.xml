@@ -6,9 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="demo" />
         <module name="FLINKTASK-TEST" />
-        <module name="FLINKTAS-TEST-Catalog" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="FLINKTAS-TEST-Catalog" target="9" />
+    </bytecodeTargetLevel>
   </component>
 </project>
